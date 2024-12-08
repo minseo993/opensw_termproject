@@ -122,7 +122,7 @@ with mp_hands.Hands(
             wow_position = fit_text_within_bounds(image, "!WOW!", (x, y), font, font_scale, wow_color, thickness)
 
         # 결과 이미지를 화면에 출력
-        cv2.imshow('MediaPipe Hands', image)
+        cv2.imshow('WOW ~ amazing!', image)
         if cv2.waitKey(5) & 0xFF == 27:  # ESC 키를 누르면 종료
             break
 

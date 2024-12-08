@@ -120,7 +120,7 @@ with mp_hands.Hands(
             cv2.putText(image, "LOVE", (x, y), font, font_scale, love_color, thickness)
 
         # 결과 이미지를 화면에 출력
-        cv2.imshow('MediaPipe Hands', image)
+        cv2.imshow('HEART for you!', image)
         if cv2.waitKey(5) & 0xFF == 27:  # ESC 키를 누르면 종료
             break
 
