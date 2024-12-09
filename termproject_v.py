@@ -6,7 +6,7 @@ mp_drawing = mp.solutions.drawing_utils
 mp_drawing_styles = mp.solutions.drawing_styles
 mp_hands = mp.solutions.hands
 
-# V 제스처를 인식하는 함수
+# V 제스처를 인식하는 함수 edit
 def is_v_sign(hand_landmarks):
     # 손 랜드마크 인덱스
     INDEX_FINGER_TIP = 8
