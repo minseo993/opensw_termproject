@@ -1,6 +1,5 @@
 ## Hand gesture detection using opencv
-
-Use the mediapipe to recognize hand gestures with the webcam and control them to show effectiveness on the screen.
+### Use the mediapipe to recognize hand gestures with the webcam and control them to show effectiveness on the screen.
 ---
 
 ### Install required packages
